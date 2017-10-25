@@ -1,0 +1,86 @@
+/*Clases reutilizables*/
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+
+/*Clases específicas*/
+
+
+/*header*/
+
+header {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  inline-size: -webkit-fill-available;
+  left: 0;
+}
+
+.icon {
+  color: #b5b5b5;
+  margin-left: 13px;
+  margin-right: 10px;
+}
+
+.icon-pinterest {
+  background-color: #ffffff;
+  color: #bd081c;
+  /* font-size: 40px; */
+  font-size: 27px;
+  border-radius: 51%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.list-icon {
+  color: #b5b5b5 right: 0;
+}
+
+.icon-search {}
+
+.icon-arrow-down {}
+
+span>div{
+  display: inline-block;
+  border: 1px solid #efefef;
+  background-color: #efefef;
+  margin-right: 10%;
+  padding: 9px;
+  padding-right: 460px;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+
+input {
+  background-color: #efefef;
+  border: none;
+}
+
+nav>span p{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 6px;
+  position: relative;
+  padding: 20px;
+  left: 5%;
+}
+.sub-menu {
+
+}
+.sub-menu .button p.light{
+  background-color: rgba(194,149,110,.5);
+  color: #ffffff;
+}
+
+.sub-menu .button p {
+  background-color: rgba(194,149,110,.8);
+  color: #ffffff;
+}
+
+span {
+  margin: 0px 4px;
+}
